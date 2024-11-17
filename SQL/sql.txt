@@ -1,7 +1,21 @@
-https://www.w3schools.com/sql/
+Mais informações sobre o SQL https://www.w3schools.com/sql/
+
+SQl Lite Online https://sqliteonline.com/#fiddle-5bbdbaef7288bo2ajn2wly03
+
+Referencias de tipo de itens para incluir na susa tabela https://www.w3schools.com/sql/sql_datatypes.asp
+
+Primary Key usada para referenciar ids https://www.w3schools.com/sql/sql_primarykey.asp
 
 
 Create
+
+CREATE TABLE products (
+  id INT NOT NULL,
+  name STRING,                 Exemplo de codigo para criar uma tablea com id 
+  price MONEY,
+  PRIMARY KEY (id)
+  )
+
 
 Read
 
