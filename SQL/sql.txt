@@ -1,0 +1,10 @@
+https://www.w3schools.com/sql/
+
+
+Create
+
+Read
+
+Update
+
+Destroy
