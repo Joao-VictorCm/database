@@ -21,6 +21,8 @@ Insert
 
 INSERT INTO products VALUES (1, "Pen", 1.20)       Exemplo de como inserir valores na tabela
 
+INSERT INTO products (id, name)                    Inserindo valores em determinadas colunas
+VALUES (1, "Penciel")                              Neste caso inserimos no id e no name deixando o price null (sem valor)
 
 Read
 
