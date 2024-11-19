@@ -40,3 +40,5 @@ ALTER TABLE products ADD stock INT              Utilizado para add mais uma colu
 
 
 Destroy
+
+DELETE FROM products WHERE id=2                 Muito importante usar o where para dar a condição, neste caso se não utilizado iria apagar toda a tabela https://www.w3schools.com/sql/sql_delete.asp
