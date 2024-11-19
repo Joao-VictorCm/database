@@ -17,12 +17,11 @@ CREATE TABLE products (
   )
 
 
-Insert 
-
 INSERT INTO products VALUES (1, "Pen", 1.20)       Exemplo de como inserir valores na tabela
 
 INSERT INTO products (id, name)                    Inserindo valores em determinadas colunas
 VALUES (1, "Penciel")                              Neste caso inserimos no id e no name deixando o price null (sem valor)
+
 
 Read
 
@@ -30,8 +29,14 @@ SELECT * FROM 'products'                          Usado o * para mostrar todos o
 
 SELECT name, price FROM 'products'               Neste caso ira aparecer somente o name e o priice
 
-SELECT * from products where id=1                Where neste caso é uma condição que só ira aparecer o produto de id = 1  https://www.w3schools.com/sql/sql_where.asp 
+SELECT * FROM products WHERE id=1                Where neste caso é uma condição que só ira aparecer o produto de id = 1  https://www.w3schools.com/sql/sql_where.asp 
+
 
 Update
+
+UPDATE products SET price = 0.80 WHERE id=2      Muito importante usar o where para dar a condição, neste caso se não utilizado iria deixar tosos os preços em 0.8
+
+ALTER TABLE products ADD stock INT              Utilizado para add mais uma coluna na tabela
+
 
 Destroy
