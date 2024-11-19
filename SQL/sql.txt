@@ -26,6 +26,12 @@ VALUES (1, "Penciel")                              Neste caso inserimos no id e 
 
 Read
 
+SELECT * FROM 'products'                          Usado o * para mostrar todos os itens da tabela
+
+SELECT name, price FROM 'products'               Neste caso ira aparecer somente o name e o priice
+
+SELECT * from products where id=1                Where neste caso é uma condição que só ira aparecer o produto de id = 1  https://www.w3schools.com/sql/sql_where.asp 
+
 Update
 
 Destroy
