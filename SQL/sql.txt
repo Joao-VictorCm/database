@@ -9,6 +9,12 @@ Primary Key usada para referenciar ids https://www.w3schools.com/sql/sql_primary
 Foreign Key usado para referenciar tabelas (lincar umas nas outras) https://www.w3schools.com/sql/sql_foreignkey.asp
 
 Iner JOIN  usado para unir tabelas e puchar dados j'a referenciados com o FOREIGN KEY https://www.w3schools.com/sql/sql_join_inner.asp
+(a tabela a ser selecionada já tesns que ter dados nela, olha o exemplo do site)
+
+SELECT orders.order_number, customer.first_name, customer.last_name, customer.address      Selecionando 
+FROM orders                                                                                Direcionadno para que tabela vai os dados 
+INNER JOIN customer ON orders.customer_id = customer.id                                    verificação, só ira se id do orders.customer_id for igual o id do customer.id
+
 
 
 CREATE table orders (
