@@ -8,6 +8,8 @@ Primary Key usada para referenciar ids https://www.w3schools.com/sql/sql_primary
 
 Foreign Key usado para referenciar tabelas (lincar umas nas outras) https://www.w3schools.com/sql/sql_foreignkey.asp
 
+Iner JOIN  usado para unir tabelas e puchar dados j'a referenciados com o FOREIGN KEY https://www.w3schools.com/sql/sql_join_inner.asp
+
 
 CREATE table orders (
   id INT NOT NULL,
