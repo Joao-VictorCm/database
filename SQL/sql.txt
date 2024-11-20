@@ -6,6 +6,19 @@ Referencias de tipo de itens para incluir na susa tabela https://www.w3schools.c
 
 Primary Key usada para referenciar ids https://www.w3schools.com/sql/sql_primarykey.asp
 
+Foreign Key usado para referenciar tabelas (lincar umas nas outras) https://www.w3schools.com/sql/sql_foreignkey.asp
+
+
+CREATE table orders (
+  id INT NOT NULL,
+  order_number INT,
+  customer_id INT,                                    Neste exemplo a tabela orders vai se referenciar as tabelas customer e products
+  product_id INT,
+  PRIMARY key (id),
+  FOREIGN KEY (customer_id) REFERENCES customer(id),
+  FOREIGN KEY (product_id) REFERENCES products(id)
+)
+
 
 Create
 
